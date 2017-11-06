@@ -1,5 +1,7 @@
 package org.pepito.prCompresor;
 
-public class Compressor {
+import org.pepito.prCompresor.Data;
 
+public interface Compressor {
+  public Data compress(Data data);
 }
